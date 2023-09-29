@@ -1,0 +1,63 @@
+body {margin:0; background-color: #666;}
+.calculadora-container {
+    background-color: #aaa;
+    margin: 5px;
+    padding: 10px;
+    /* height: 70vh; */
+    font-size: 2em;
+}
+
+.button-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.btn {
+    user-select: none;
+    font-family: sans-serif;
+    border: 1px solid #0006;
+    text-align: center;
+}
+
+.numBTN {
+    background-color: #ccc;
+}
+
+.opBTN {
+    background-color: #ddd;
+}
+
+.igualBTN {
+    background-color: #ccc;
+    grid-column: span 2;
+}
+
+.borrBTN {
+    background-color: #f33;
+}
+
+.ansBTN {
+    background: #ccc;
+}
+
+
+.resultado {
+    background-color: green;
+    margin: 0;
+    display: inline-block;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+
+    font-family: 'Minecraft';
+    font-size: 1.5em;
+    scrollbar-width: thin;
+
+    border: none;
+    outline: none;
+}
